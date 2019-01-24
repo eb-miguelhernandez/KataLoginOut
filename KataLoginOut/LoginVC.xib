@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="KataLoginOut" customModuleProvider="target">
             <connections>
+                <outlet property="login" destination="J5r-7f-ZLS" id="qXG-5t-uh8"/>
+                <outlet property="password" destination="APW-g1-e2g" id="zHB-We-l2W"/>
+                <outlet property="userName" destination="UIu-9q-mxY" id="dK6-hw-5Bs"/>
                 <outlet property="view" destination="XQX-Sb-aym" id="xxg-xz-0bY"/>
             </connections>
         </placeholder>
@@ -35,6 +38,9 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5r-7f-ZLS">
                     <rect key="frame" x="166.5" y="206" width="42" height="30"/>
                     <state key="normal" title="Log in"/>
+                    <connections>
+                        <action selector="loginWasTapped:" destination="-1" eventType="touchUpInside" id="1Bn-Zk-xKS"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
