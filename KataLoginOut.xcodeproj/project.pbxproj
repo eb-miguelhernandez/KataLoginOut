@@ -11,6 +11,8 @@
 		F58E366521FA0829008F9D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58E366421FA0829008F9D7B /* Assets.xcassets */; };
 		F58E366821FA0829008F9D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58E366621FA0829008F9D7B /* LaunchScreen.storyboard */; };
 		F58E367321FA0829008F9D7B /* KataLoginOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E367221FA0829008F9D7B /* KataLoginOutTests.swift */; };
+		F58E367E21FA0CFF008F9D7B /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58E367D21FA0CFF008F9D7B /* LoginVC.xib */; };
+		F58E368021FA0E3F008F9D7B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E367F21FA0E3F008F9D7B /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		F58E366E21FA0829008F9D7B /* KataLoginOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataLoginOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58E367221FA0829008F9D7B /* KataLoginOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataLoginOutTests.swift; sourceTree = "<group>"; };
 		F58E367421FA0829008F9D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58E367D21FA0CFF008F9D7B /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		F58E367F21FA0E3F008F9D7B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				F58E365D21FA0825008F9D7B /* AppDelegate.swift */,
+				F58E367D21FA0CFF008F9D7B /* LoginVC.xib */,
+				F58E367F21FA0E3F008F9D7B /* LoginVC.swift */,
 				F58E366421FA0829008F9D7B /* Assets.xcassets */,
 				F58E366621FA0829008F9D7B /* LaunchScreen.storyboard */,
 				F58E366921FA0829008F9D7B /* Info.plist */,
@@ -171,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58E367E21FA0CFF008F9D7B /* LoginVC.xib in Resources */,
 				F58E366821FA0829008F9D7B /* LaunchScreen.storyboard in Resources */,
 				F58E366521FA0829008F9D7B /* Assets.xcassets in Resources */,
 			);
@@ -191,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58E365E21FA0825008F9D7B /* AppDelegate.swift in Sources */,
+				F58E368021FA0E3F008F9D7B /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

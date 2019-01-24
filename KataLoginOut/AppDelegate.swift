@@ -8,10 +8,6 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
-
-}
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
