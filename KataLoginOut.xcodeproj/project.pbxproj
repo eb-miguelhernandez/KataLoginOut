@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58E365E21FA0825008F9D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E365D21FA0825008F9D7B /* AppDelegate.swift */; };
+		F58E366021FA0825008F9D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E365F21FA0825008F9D7B /* ViewController.swift */; };
+		F58E366321FA0825008F9D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58E366121FA0825008F9D7B /* Main.storyboard */; };
+		F58E366521FA0829008F9D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58E366421FA0829008F9D7B /* Assets.xcassets */; };
+		F58E366821FA0829008F9D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58E366621FA0829008F9D7B /* LaunchScreen.storyboard */; };
+		F58E367321FA0829008F9D7B /* KataLoginOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E367221FA0829008F9D7B /* KataLoginOutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F58E366F21FA0829008F9D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58E365221FA0825008F9D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58E365921FA0825008F9D7B;
+			remoteInfo = KataLoginOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F58E365A21FA0825008F9D7B /* KataLoginOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataLoginOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58E365D21FA0825008F9D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F58E365F21FA0825008F9D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F58E366221FA0825008F9D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58E366421FA0829008F9D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58E366721FA0829008F9D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58E366921FA0829008F9D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58E366E21FA0829008F9D7B /* KataLoginOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataLoginOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58E367221FA0829008F9D7B /* KataLoginOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataLoginOutTests.swift; sourceTree = "<group>"; };
+		F58E367421FA0829008F9D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58E365721FA0825008F9D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58E366B21FA0829008F9D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58E365121FA0825008F9D7B = {
+			isa = PBXGroup;
+			children = (
+				F58E365C21FA0825008F9D7B /* KataLoginOut */,
+				F58E367121FA0829008F9D7B /* KataLoginOutTests */,
+				F58E365B21FA0825008F9D7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58E365B21FA0825008F9D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58E365A21FA0825008F9D7B /* KataLoginOut.app */,
+				F58E366E21FA0829008F9D7B /* KataLoginOutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58E365C21FA0825008F9D7B /* KataLoginOut */ = {
+			isa = PBXGroup;
+			children = (
+				F58E365D21FA0825008F9D7B /* AppDelegate.swift */,
+				F58E365F21FA0825008F9D7B /* ViewController.swift */,
+				F58E366121FA0825008F9D7B /* Main.storyboard */,
+				F58E366421FA0829008F9D7B /* Assets.xcassets */,
+				F58E366621FA0829008F9D7B /* LaunchScreen.storyboard */,
+				F58E366921FA0829008F9D7B /* Info.plist */,
+			);
+			path = KataLoginOut;
+			sourceTree = "<group>";
+		};
+		F58E367121FA0829008F9D7B /* KataLoginOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58E367221FA0829008F9D7B /* KataLoginOutTests.swift */,
+				F58E367421FA0829008F9D7B /* Info.plist */,
+			);
+			path = KataLoginOutTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58E365921FA0825008F9D7B /* KataLoginOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58E367721FA0829008F9D7B /* Build configuration list for PBXNativeTarget "KataLoginOut" */;
+			buildPhases = (
+				F58E365621FA0825008F9D7B /* Sources */,
+				F58E365721FA0825008F9D7B /* Frameworks */,
+				F58E365821FA0825008F9D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataLoginOut;
+			productName = KataLoginOut;
+			productReference = F58E365A21FA0825008F9D7B /* KataLoginOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F58E366D21FA0829008F9D7B /* KataLoginOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58E367A21FA0829008F9D7B /* Build configuration list for PBXNativeTarget "KataLoginOutTests" */;
+			buildPhases = (
+				F58E366A21FA0829008F9D7B /* Sources */,
+				F58E366B21FA0829008F9D7B /* Frameworks */,
+				F58E366C21FA0829008F9D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58E367021FA0829008F9D7B /* PBXTargetDependency */,
+			);
+			name = KataLoginOutTests;
+			productName = KataLoginOutTests;
+			productReference = F58E366E21FA0829008F9D7B /* KataLoginOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58E365221FA0825008F9D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Miguel Hernández Jaso";
+				TargetAttributes = {
+					F58E365921FA0825008F9D7B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F58E366D21FA0829008F9D7B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F58E365921FA0825008F9D7B;
+					};
+				};
+			};
+			buildConfigurationList = F58E365521FA0825008F9D7B /* Build configuration list for PBXProject "KataLoginOut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58E365121FA0825008F9D7B;
+			productRefGroup = F58E365B21FA0825008F9D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58E365921FA0825008F9D7B /* KataLoginOut */,
+				F58E366D21FA0829008F9D7B /* KataLoginOutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58E365821FA0825008F9D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E366821FA0829008F9D7B /* LaunchScreen.storyboard in Resources */,
+				F58E366521FA0829008F9D7B /* Assets.xcassets in Resources */,
+				F58E366321FA0825008F9D7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58E366C21FA0829008F9D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58E365621FA0825008F9D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E366021FA0825008F9D7B /* ViewController.swift in Sources */,
+				F58E365E21FA0825008F9D7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58E366A21FA0829008F9D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E367321FA0829008F9D7B /* KataLoginOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F58E367021FA0829008F9D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58E365921FA0825008F9D7B /* KataLoginOut */;
+			targetProxy = F58E366F21FA0829008F9D7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F58E366121FA0825008F9D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58E366221FA0825008F9D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58E366621FA0829008F9D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58E366721FA0829008F9D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58E367521FA0829008F9D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F58E367621FA0829008F9D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58E367821FA0829008F9D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataLoginOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.KataLoginOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58E367921FA0829008F9D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataLoginOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.KataLoginOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F58E367B21FA0829008F9D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataLoginOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.KataLoginOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataLoginOut.app/KataLoginOut";
+			};
+			name = Debug;
+		};
+		F58E367C21FA0829008F9D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataLoginOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.KataLoginOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataLoginOut.app/KataLoginOut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58E365521FA0825008F9D7B /* Build configuration list for PBXProject "KataLoginOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58E367521FA0829008F9D7B /* Debug */,
+				F58E367621FA0829008F9D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58E367721FA0829008F9D7B /* Build configuration list for PBXNativeTarget "KataLoginOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58E367821FA0829008F9D7B /* Debug */,
+				F58E367921FA0829008F9D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58E367A21FA0829008F9D7B /* Build configuration list for PBXNativeTarget "KataLoginOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58E367B21FA0829008F9D7B /* Debug */,
+				F58E367C21FA0829008F9D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58E365221FA0825008F9D7B /* Project object */;
+}
