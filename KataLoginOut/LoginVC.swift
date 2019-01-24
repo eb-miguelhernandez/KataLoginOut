@@ -34,15 +34,14 @@ class LoginVC: UIViewController {
     // MARK: Actions
 
     @IBAction func loginWasTapped(_ sender: UIButton) {
-        let result = self.login(withUser: userName.text, password: password.text)
+        let result = Login.login(withUser: userName.text, password: password.text)
         var message = ""
         switch result {
-        case .success(let result):
-            guard let resultMessage = result as? String else { assertionFailure("Result must be a string"); return }
-            message = resultMessage
+        case .success:
+            message = "OK"
             self.showScene(.logout)
-        case .failure(let error):
-            message = error
+        case .failure:
+            message = "Datos incorrectos"
         }
 
         let alert = UIAlertController(title: "Result", message: message, preferredStyle: .alert)
@@ -52,15 +51,14 @@ class LoginVC: UIViewController {
     }
 
     @IBAction func logoutWasTapped(_ sender: UIButton) {
-        let result = self.logout(withDate: Date())
+        let result = Logout.logout(withTimeProvider: TimeProvider())
         var message = ""
         switch result {
-        case .success(let result):
-            guard let resultMessage = result as? String else { assertionFailure("Result must be a string"); return }
-            message = resultMessage
+        case .success:
+            message = "OK"
             self.showScene(.login)
-        case .failure(let error):
-            message = error
+        case .failure:
+            message = "No te puedes escapar"
         }
 
         let alert = UIAlertController(title: "Result", message: message, preferredStyle: .alert)
@@ -89,26 +87,46 @@ class LoginVC: UIViewController {
 }
 
 struct Login {
-    func login(withUser user: String?, password: String?) -> Result {
+    static func login(withUser user: String?, password: String?) -> Result {
         if user == "admin" && password == "admin" {
-            return Result.success(result: "OK")
+            return Result.success
         }
-        return Result.failure(error: "A tomar por culo")
+        return Result.failure
+    }
+}
+
+struct Logout {
+    static func logout(withTimeProvider timeProvider: TimeProvider) -> Result {
+        if timeProvider.currentTimeInSeconds() % 2 == 0 {
+            return Result.success
+        }
+        return Result.failure
     }
 
-    func logout(withDate date: Date) -> Result {
-        if self.millisencondsFromDate(date) % 2 == 0 {
-            return Result.success(result: "OK")
-        }
-        return Result.failure(error: "No te puedes escapar")
+    static func millisencondsFromDate(_ date: Date) -> Int {
+        return Int(date.timeIntervalSince1970.rounded())
+    }
+}
+
+class TimeProvider {
+    func currentTimeInSeconds() -> Int {
+        return Int(Date().timeIntervalSince1970.rounded())
+    }
+}
+
+class MockTimeProvider: TimeProvider {
+    var currentTime: Int
+
+    init(currentTimeInSeconds: Int) {
+        self.currentTime = currentTimeInSeconds
     }
 
-    func millisencondsFromDate(_ date: Date) -> Int {
-        return Int((date.timeIntervalSince1970 * 1000.0).rounded())
+    override func currentTimeInSeconds() -> Int {
+        return currentTime
     }
 }
 
 enum Result {
-    case success(result: Any)
-    case failure(error: String)
+    case success
+    case failure
 }
